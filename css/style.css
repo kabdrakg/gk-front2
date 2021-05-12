@@ -1,0 +1,377 @@
+* {
+    color: white;
+}
+.header {
+    background-color: black;
+    padding: 18px 0;
+}
+
+.container {
+    /*outline: 1px solid red;*/
+    max-width: 1160px;
+    width:100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__left {
+
+}
+
+.header__right {
+
+}
+
+.header__logo {
+    margin: 0 41px 0 0;
+}
+
+.header__nav a:not(:last-child){
+    margin: 0 33px 0 0;
+}
+
+.promo {
+    background-color: #F1E4E6;
+}
+
+.promo__container {
+    /* outline: 1px solid green; */
+    min-height: 754px;
+    background: url("../img/index/man.png") no-repeat;
+    background-position: -228px bottom;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.promo__text {
+    max-width: 405px;
+    border-left: 12px solid #F16D7F;
+    padding: 0 0 0 16px;
+    width: 50%;
+    height: 100%;
+}
+
+.promo__text h1 {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 48px;
+}
+
+.promo__text span:not(:last-child){
+    font-size: 32px;
+    color: black;
+}
+
+.promo__decor {
+    font-size: 32px;
+    color: #F16D7F;
+}
+
+.product__container{
+    margin: 0 auto;
+    margin-top: 65px;
+    /* outline: 1px solid yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+}
+
+.product__card:not(:last-child){
+    /* outline: 1px solid black; */
+    width: 30%;
+    color: black;
+}
+
+.product__card:last-child {
+   /* outline: 1px solid black; */
+    width: 100%;
+    color: black;
+}
+
+.product__card {
+    position: relative;
+    height: 100%;
+}
+
+.product__text {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-height: 50px;
+}
+
+.product__card span {
+    
+}
+
+.product__card h2 {
+    color: #F16D7F;
+    margin: 0;
+}
+
+.featured {
+    margin: 96px 0 0 0;
+}
+
+.featured__container{
+    /* outline: 1px solid darkgrey; */
+    text-align: center;
+}
+
+.featured__container h1 {
+    color: #222222;
+    line-height: 36px;
+    margin: 0;
+}
+
+.featured__container span {
+    color: #9f9f9f;
+}
+
+.items__decor {
+   background-color: #F8F8F8;
+}
+
+.featured__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: left;
+    margin: 50px 0;
+}
+
+.featured__items h3 {
+    color: #000000;
+    padding: 0 0 0 18px;
+}
+
+.featured__items span {
+    color: #5D5D5D;
+    padding: 0 0 18px 18px;
+    display: block;
+    max-width: 315px;
+}
+
+.featured__items span:last-child {
+    color: #F16D7F;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.featured__button {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #F26376;
+    border: 1px solid #FF6A6A;
+    padding: 14px 38px;
+    text-decoration: none;
+    display: inline-block;
+    width: 211px;
+    margin: 0 0 50px 0;
+}
+
+.featured__button:hover {
+    color: white;
+    background-color: #F16D7F;
+}
+
+footer {
+    background-color: #222224;
+}
+
+.footer__header {
+    /* outline: 1px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer__info {
+    /* outline: 1px solid orange; */
+    max-width: 360px;
+    text-align: center;
+    padding: 103px 0;
+}
+
+.footer__info h3{
+    line-height: 24px;
+    color: #FBFBFB;
+}
+
+.footer__info span {
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    color: #FBFBFB;
+}
+
+.footer__content {
+    outline: 1px solid yellow;
+    padding: 50px;
+    background: url("../img/footer__background.png") no-repeat;
+    background-size: cover;
+    min-height: 448px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.content__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer__review {
+    outline: 1px solid black;
+}
+
+.footer__review p {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+    display: block;
+    max-width: 360px;
+}
+
+.footer__form {
+    display: flex;
+    outline: 1px solid green;
+}
+
+
+/* Не смогла сделать вложенность в класс  footer__form*/
+input {
+    border: none;
+}
+
+.footer__form p {
+    display: block;
+    max-width: 557px;
+    color: #222224;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.footer__form span {
+    color: #222224;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.form__email, .form__btn {
+    padding: 7px;
+    max-height: 49px;
+}
+
+.form__email {
+    border-radius: 20px 0 0 20px;
+    background-color: #E1E1E1;
+    width: 256px;
+}
+
+.form__btn {
+    border-radius: 0 20px 20px 0;
+    background-color: #F16D7F;
+}
+
+.footer__contacts {
+    /* outline: 1px solid red; */
+    padding: 24px;
+    background-color: #222224;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* catalog */
+
+.arrivals__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.arrivals {
+    background-color: #F8F3F4;
+}
+
+.arrivals__container h2 {
+    margin: 0;
+    color: #F16D7F;
+}
+
+.arrivals__container a {
+    color: #636363;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.arrivals__container span {
+    color: #636363;
+}
+
+.arrivals__container a:last-child{
+    color: #F16D7F;
+}
+
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.filter span{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.pagination {
+    display: inline-block;
+    border: 1px solid #EBEBEB;
+    margin: 0 0 96px 0;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+}
+
+.pagination a.active {
+    color: #EF5B70;
+}
+
+.pagination a.inactive {
+    color: #EBEBEB;
+}
+
+
+
+
+
+
